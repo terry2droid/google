@@ -21,7 +21,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 			ro.addon.sdk=25\
 			ro.addon.platform=7.1\
 			ro.addon.open_type=pico\
-			ro.addon.open_version=20170319
+			ro.addon.open_version=20170611
 
 PRODUCT_COPY_FILES += \
 	vendor/amlogic/google/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar\
