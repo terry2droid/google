@@ -21,7 +21,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 			ro.addon.sdk=25\
 			ro.addon.platform=7.1\
 			ro.addon.open_type=pico\
-			ro.addon.open_version=20170611
+			ro.addon.open_version=20180201
 
 PRODUCT_COPY_FILES += \
 	vendor/amlogic/google/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar\
@@ -36,6 +36,8 @@ PRODUCT_COPY_FILES += \
 	vendor/amlogic/google/etc/default-permissions/opengapps-permissions.xml:system/etc/default-permissions/opengapps-permissions.xml\
 	vendor/amlogic/google/etc/sysconfig/google.xml:system/etc/sysconfig/google.xml\
 	vendor/amlogic/google/etc/sysconfig/google_build.xml:system/etc/sysconfig/google_build.xml\
+	vendor/amlogic/google/etc/sysconfig/dialer_experience.xml:system/etc/sysconfig/dialer_experience.xml\
+	vendor/amlogic/google/etc/sysconfig/framework-sysconfig.xml:system/etc/sysconfig/framework-sysconfig.xml\
 	vendor/amlogic/google/etc/sysconfig/whitelist_com.android.omadm.service.xml:system/etc/sysconfig/whitelist_com.android.omadm.service.xml\
 	vendor/amlogic/google/etc/preferred-apps/google.xml:system/etc/preferred-apps/google.xml\
 	vendor/amlogic/google/lib64/libjni_latinimegoogle.so:system/lib64/libjni_latinimegoogle.so
