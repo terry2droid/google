@@ -13,7 +13,8 @@ PRODUCT_PACKAGES += \
 			GoogleFeedback\
 			GooglePartnerSetup\
 			ConfigUpdater\
-			PlatformServices
+			PlatformServices\
+			Chrome
 
 PRODUCT_PROPERTY_OVERRIDES += \
 			ro.addon.type=gapps\
