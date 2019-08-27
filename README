@@ -1,24 +1,13 @@
                                        Gapps for khadas
 
-About how to add Gapps support on khadas VIMs and Edge SDK source code, You can follow the steps below
+About how to add Gapps support on khadas VIMs Pie SDK source code, You can follow the steps below
 
 一、VIMs board
-1. Modify the file 'PROJECT/device/khadas/kvim.mk' or 'PROJECT/device/khadas/kvim2.mk'
+1. Modify the file 'PROJECT/device/khadas/kvim.mk' or 'PROJECT/device/khadas/kvim3.mk'
 <1> Change the property 'BUILD_WITH_GAPPS_CONFIG' from false to true
 
 2. Download the google repertory into the path 'PROJECT/vendor/amlogic/'
 <1> cd PROJECT/vendor/amlogic/
-<2> git clone https://github.com/terry2droid/google google -b Nougat
+<2> git clone https://github.com/terry2droid/google google -b Pie-arm
 
 3. Build yourself ROM again
-
-二、Edge board
-1. Modify the file 'PROJECT/device/rockchip/rk3399/rk3399_all.mk'
-<1> Change the property 'BUILD_WITH_GAPPS_CONFIG' from false to true
-
-2. Download the google repertory into the path 'PROJECT/vendor/rockchip/'
-<1> cd PROJECT/vendor/rockchip/
-<2> git clone https://github.com/terry2droid/google google -b Nougat
-
-3. Build yourself ROM again
- 
