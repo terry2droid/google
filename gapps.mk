@@ -31,7 +31,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 			ro.addon.sdk=28 \
 			ro.addon.platform=9.0 \
 			ro.addon.open_type=mini \
-			ro.addon.open_version=20190712
+			ro.addon.open_version=20191012
 
 ifeq ($(PRODUCT_MODEL) , Edge)
 LOCAL_PATH:= vendor/rockchip/google
