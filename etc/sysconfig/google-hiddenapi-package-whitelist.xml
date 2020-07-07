@@ -29,7 +29,6 @@ This XML file declares which platform apps that need to access internal APIs.
   <hidden-api-whitelisted-app package="com.android.car.setupwizardlib.robotests" />
   <hidden-api-whitelisted-app package="com.android.cardock" />
   <hidden-api-whitelisted-app package="com.android.connectivity.metrics" />
-  <hidden-api-whitelisted-app package="com.android.facelock" />
   <hidden-api-whitelisted-app package="com.android.google.gce.gceservice" />
   <hidden-api-whitelisted-app package="com.android.hotwordenrollment.okgoogle" />
   <hidden-api-whitelisted-app package="com.android.hotwordenrollment.tgoogle" />
@@ -51,6 +50,7 @@ This XML file declares which platform apps that need to access internal APIs.
   <hidden-api-whitelisted-app package="com.google.SSRestartDetector" />
   <hidden-api-whitelisted-app package="com.google.android.apps.nexuslauncher" />
   <hidden-api-whitelisted-app package="com.google.android.apps.turbo" />
+  <hidden-api-whitelisted-app package="com.google.android.apps.wallpaper" />
   <hidden-api-whitelisted-app package="com.google.android.asdiv" />
   <hidden-api-whitelisted-app package="com.google.android.athome.globalkeyinterceptor" />
   <hidden-api-whitelisted-app package="com.google.android.car.bugreport" />
@@ -76,8 +76,10 @@ This XML file declares which platform apps that need to access internal APIs.
   <hidden-api-whitelisted-app package="com.google.android.hiddenmenu" />
   <hidden-api-whitelisted-app package="com.google.android.onetimeinitializer" />
   <hidden-api-whitelisted-app package="com.google.android.packageinstaller" />
+  <hidden-api-whitelisted-app package="com.google.android.permissioncontroller" />
   <hidden-api-whitelisted-app package="com.google.android.partner.provisioning" />
   <hidden-api-whitelisted-app package="com.google.android.partnersetup" />
+  <hidden-api-whitelisted-app package="com.google.android.pixel.setupwizard" />
   <hidden-api-whitelisted-app package="com.google.android.preloaded_drawable_viewer" />
   <hidden-api-whitelisted-app package="com.google.android.printservice.recommendation" />
   <hidden-api-whitelisted-app package="com.google.android.sampledeviceowner" />
@@ -98,6 +100,7 @@ This XML file declares which platform apps that need to access internal APIs.
   <hidden-api-whitelisted-app package="com.google.modemservice" />
   <hidden-api-whitelisted-app package="com.htc.omadm.trigger" />
   <hidden-api-whitelisted-app package="com.qualcomm.qcrilmsgtunnel" />
+  <hidden-api-whitelisted-app package="com.ustwo.lwp" />
   <hidden-api-whitelisted-app package="org.chromium.arc.accessibilityhelper" />
   <hidden-api-whitelisted-app package="org.chromium.arc.apkcacheprovider" />
   <hidden-api-whitelisted-app package="org.chromium.arc.applauncher" />

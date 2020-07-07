@@ -23,6 +23,7 @@
     <allow-in-power-save package="com.google.android.gms" />
     <allow-in-data-usage-save package="com.google.android.gms" />
     <allow-unthrottled-location package="com.google.android.gms" />
+    <allow-ignore-location-settings package="com.google.android.gms" />
 
     <!-- OobConfig must always have network access to fetch enterprise and carrier lock config. -->
     <allow-in-power-save-except-idle package="com.google.android.apps.work.oobconfig" />
@@ -93,5 +94,13 @@
     <backup-transport-whitelisted-service
         service="com.google.android.gms/.backup.component.D2dTransportService" />
 
-
+    <!-- Specify the explicit set of other applications that AI services are allowed to
+         interact with, including the providers that back the implementation of the APIs
+         provided by the package. -->
+    <allow-association target="com.google.android.as" allowed="com.android.providers.contacts" />
+    <allow-association target="com.google.android.as" allowed="com.android.providers.media" />
+    <allow-association target="com.google.android.as" allowed="com.android.providers.telephony" />
+    <allow-association target="com.google.android.as" allowed="com.android.systemui" />
+    <allow-association target="com.google.android.as" allowed="com.google.android.gms" />
+    <allow-association target="com.google.android.as" allowed="com.google.android.gsf" />
 </config>

@@ -23,7 +23,8 @@ PRODUCT_PACKAGES += \
 			GoogleCalendar \
 			GoogleCalculator \
 			GoogleMarkup \
-			GooglePackageInstaller
+			GooglePackageInstaller \
+			YouTube
 
 PRODUCT_PROPERTY_OVERRIDES += \
 			ro.addon.type=gapps \
@@ -31,7 +32,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 			ro.addon.sdk=28 \
 			ro.addon.platform=9.0 \
 			ro.addon.open_type=mini \
-			ro.addon.open_version=20191012
+			ro.addon.open_version=20300522
 
 ifeq ($(PRODUCT_MODEL) , Edge)
 LOCAL_PATH:= vendor/rockchip/google
@@ -54,5 +55,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/etc/sysconfig/google_build.xml:system/etc/sysconfig/google_build.xml \
 	$(LOCAL_PATH)/etc/sysconfig/dialer_experience.xml:system/etc/sysconfig/dialer_experience.xml \
 	$(LOCAL_PATH)/etc/sysconfig/google-hiddenapi-package-whitelist.xml:system/etc/sysconfig/google-hiddenapi-package-whitelist.xml \
-	$(LOCAL_PATH)/etc/preferred-apps/google.xml:system/etc/preferred-apps/google.xml
+	$(LOCAL_PATH)/etc/preferred-apps/google.xml:system/etc/preferred-apps/google.xml \
+        $(LOCAL_PATH)/lib/libsketchology_native.so:system/lib/libsketchology_native.so
 endif
