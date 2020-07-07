@@ -24,7 +24,8 @@ PRODUCT_PACKAGES += \
 			GoogleCalculator \
 			GoogleMarkup \
 			GooglePackageInstaller \
-			YouTube
+			YouTube \
+			Chrome
 
 PRODUCT_PROPERTY_OVERRIDES += \
 			ro.addon.type=gapps \
